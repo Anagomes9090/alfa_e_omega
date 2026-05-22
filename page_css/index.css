@@ -82,9 +82,11 @@ a:hover{
     margin-left: 5%;
   }
   #img_templo{
-    width: 100%;
-    height: 35%;
-    margin-top: 1vh;
+    width: 45cap;
+    height: 65%;
+    margin-left: -52%;
+
+    margin-top: -1vh;
     display: absolute;
     justify-content: center;
     font-size: 30px;
