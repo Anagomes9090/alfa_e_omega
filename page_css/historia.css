@@ -17,8 +17,8 @@ h1{
 }
 #frase1{
     margin-top: -2vh;
-    font-size: 20vh;
-    margin-left: -20%;
+    font-size: 10vh;
+    margin-left: 8%;
     color: #ffffff;
 }
 
@@ -48,12 +48,12 @@ a:hover{
     }
    
   #frase1{
-    font-size: 400%;
+    font-size: 300%;
     margin-top: -15vh;
     margin-left: -35%;
   }
  
-#img_templo{
+#img_apostolos{
     width: 150%;
     height: 135vh;
     margin-top: -5vh;
