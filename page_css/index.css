@@ -75,7 +75,7 @@ a:hover{
 
 }
 
-@media only screen and (max-width: 990px){
+@media only screen and (max-width: 850px){
 
   #frase1{
     margin-top: -1vh;
@@ -84,7 +84,7 @@ a:hover{
   #img_templo{
     width: 45cap;
     height: 65%;
-    margin-left: -52%;
+    margin-left: -55%;
 
     margin-top: -1vh;
     display: absolute;

@@ -66,3 +66,24 @@
     display: none;
 }
 }
+
+
+
+@media only screen and (max-width: 990px){
+
+  #frase1{
+    margin-top: -1vh;
+    margin-left: 5%;
+  }
+  #img_templo{
+    width: 45cap;
+    height: 65%;
+    margin-left: -52%;
+
+    margin-top: -1vh;
+    display: absolute;
+    justify-content: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+}
