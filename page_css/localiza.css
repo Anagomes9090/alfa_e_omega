@@ -23,6 +23,12 @@ h1{
     font-size: 12vh;
     margin-left: -35%;
 }
+#fraseh2{
+    margin-top: 5vh;
+    font-size: 2vh;
+    margin-left: -25%;
+
+}
 
 @media only screen and (max-width: 1066px){
 
@@ -36,7 +42,11 @@ h1{
     margin-top: 20vh;
     margin-left: -10vh;
   }
-
+#fraseh2{
+    font-size: 90%;
+    margin-top: -2%;
+    margin-left: 7%;
+  }
 #img_templo{
     width: 150%;
     height: 135vh;

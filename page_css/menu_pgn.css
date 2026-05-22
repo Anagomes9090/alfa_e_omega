@@ -15,17 +15,17 @@
     color: rgb(255, 255, 255);
     display: inline-block;
     justify-content: center;
-    font-size: 105%;
+    font-size: 150%;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     text-decoration: none;
     font-family: "Poppins";
     margin:2vh;
-    margin-top: -5vh;
+    margin-top: 4vh;
 }
 
 #option_1{
-    margin-left: 30%;
+    margin-left: 20%;
 }
 
 .botao_menu{
