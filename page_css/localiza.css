@@ -19,7 +19,38 @@ h1{
     font-family: var(--fonte2);
 }
 #fraseh1{
-    margin-top: -8vh;
-    font-size: 20vh;
-    margin-left: -5%;
+    margin-top: 10%;
+    font-size: 12vh;
+    margin-left: -35%;
+}
+
+@media only screen and (max-width: 1066px){
+
+   .inicio-page{
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+   
+  #fraseh1{
+    font-size: 275%;
+    margin-top: 20vh;
+    margin-left: -10vh;
+  }
+
+#img_templo{
+    width: 150%;
+    height: 135vh;
+    margin-top: -5vh;
+    margin-left: -32%;
+}
+.local_map{
+    width: 90%;
+    height: 45vh;
+    border: none;
+    margin: 5vh;
+}
+#map_localiza{
+    margin-top: 5vh;
+}
+
 }
