@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="..\img\logo_alfa_sem_fundo.png"/>
+    <link rel="stylesheet" href="..\page_css\menu_pgn.css">
+    <link rel="stylesheet" href="..\page_css\index.css">
+    <link rel="stylesheet" href="..\page_css\padrao.css">   
+    <link rel="stylesheet" href="..\saass\index.scss">
+    <script type="text/javascript" src="js/index.js"></script> 
+     
+    <title>Ministério Apostólico Alfa e Ômega</title>
+</head>
+<body>
+    <div class="menu">
+        <button href=".\index.php" class="botao_menu" id="logo_menu"><img href=".\index.php" class="menu_img" id="logo_menu_img" src="..\img\logo_alfa_sem_fundo.png"></button>
+        <a href=".\pages\localiza.php" id="option_1">Localização</a>
+        <a href="index.php" id="option_2">História</a>
+        <a href="index.php" id="option_3">Eventos</a>
+        <a href="index.php" id="option_4">Casa de Ânimo</a>
+        <a href="index.php" id="option_5">Voluntário</a>
+     </div> <br>
+
+     <div class="inicio-page">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2417.4919179115527!2d-45.437549953902376!3d-22.91962887305958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccefc25278f29d%3A0x5599212777789be!2sComunidade%20Apost%C3%B3lica%20Internacional%2C%20Alfa%20e%20%C3%94mega%20-%20Rod.%20Ver.%20Abel%20Fabr%C3%ADcio%20Dias%2C%202221%20-%20Pindamonhangaba%2C%20SP%2C%2012402-020!5e0!3m2!1spt-BR!2sbr!4v1779468462711!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br><br>
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1779468355553!6m8!1m7!1sROfqPsL4UsLlhUidB4W64w!2m2!1d-22.91972314774251!2d-45.43732470033731!3f345.56!4f0!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+</body>
+</html>
+  

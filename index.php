@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href=".\img\logo_alfa_sem_fundo.png"/>
+    <link rel="stylesheet" href=".\page_css\menu_pgn.css">
+    <link rel="stylesheet" href=".\page_css\index.css">
+    <link rel="stylesheet" href=".\page_css\padrao.css">   
+    <link rel="stylesheet" href=".\saass\index.scss">
+    <script type="text/javascript" src="js/index.js"></script> 
+     
+    <title>Ministério Apostólico Alfa e Ômega</title>
+</head>
+<body>
+    <div class="menu">
+        <button href="index.php" class="botao_menu" id="logo_menu"><img class="menu_img" id="logo_menu_img" src=".\img\logo_alfa_sem_fundo.png"></button>
+        <a href=".\pages\localiza.php" id="option_1">Localização</a>
+        <a href="index.php" id="option_2">História</a>
+        <a href="index.php" id="option_3">Eventos</a>
+        <a href="index.php" id="option_4">Casa de Ânimo</a>
+        <a href="index.php" id="option_5">Voluntário</a>
+     </div> <br>
+   
+   
+     <div class="inicio-page">
+
+        <div class="fundo_descarrega">
+
+        </div>
+            
+        <img src=".\img\igreja_edit.png" id="img_templo"><BR><BR>
+    <h1 id="frase1" > UM LUGAR<br> PARA AMAR <BR> E SER AMADO!</h1><BR>
+
+    </div>
+
+
+
+ <br><br><br><br><br>
+    
+</body>
+</html>
