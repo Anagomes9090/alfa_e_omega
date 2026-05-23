@@ -45,7 +45,7 @@ p{
     letter-spacing: 4px;
     text-decoration: none;
     font-family: var(--fonte2);
-    margin-top: 5vh;}
+  }
 
 
 
@@ -93,7 +93,7 @@ p{
     margin-left: -38vh;
     margin-top: 12vh;
   }
-  text{
+  #text_p{
     font-size: 15px;
     margin-left: 2vh;
 }
