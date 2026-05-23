@@ -1,4 +1,4 @@
-$("#option_1").on("click", function() {
+$("#abre_menu").on("click", function() {
 	
 		$(".descarrega_pagina").load("./pages/localiza.php", function(){
 		$(".menu-lateral").removeAttr("style")
@@ -25,7 +25,7 @@ $("#option_1").on("click", function() {
             )})
 
 ////////////////////////////////menu mobile/////////////////////////////////////
-var fundoPgn = document.getElementsByClassName("descarrega_pagina");
+var fundoPgn = document.getElementsByid
 	var abreMenu = document.getElementsByClassName("descarrega");
 	for (let index = 0; index < abreMenu.length; index++) {
 	  abreMenu[index].addEventListener("click", function() {
