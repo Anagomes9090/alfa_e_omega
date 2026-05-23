@@ -10,14 +10,15 @@
     <link rel="stylesheet" href=".\page_css\index.css">
     <link rel="stylesheet" href=".\page_css\padrao.css">   
     <link rel="stylesheet" href=".\saass\index.scss">
-    <script type="text/javascript" src="js\index.js"></script> 
+    <script src=".\js\index.js"></script> 
      
     <title>Ministério Apostólico Alfa e Ômega</title>
 </head>
+
 <body>
     <div class="menu">
         <button href="index.html" class="botao_menu" id="logo_menu"><img class="menu_img" id="logo_menu_img" src=".\img\logo_alfa_sem_fundo.png"></button>
-        <button  class="botao_menu abre_menu" id="abre_menu"><img class="menu_img" id="abre_menu_img" src=".\img\menu_branco.png"></button>
+        <button  class="botao_menu" id="abre_menu" style="display:absolute;"><img class="menu_img" id="abre_menu_img" src=".\img\menu_branco.png"></button>
 
         <a href=".\pages\historia.html" class="option" id="option_1">História</a>
         <a href=".\pages\eventos.html" class="option" id="option_2">Eventos</a>
@@ -29,8 +30,8 @@
    
    
      <div class="inicio-page" id="descarrega" >
-        <div class="menu_mobile" >
-            <button class="x_volta" id="voltar_button">
+        <div class="menu_mobile" style="display: none;">
+            <button class="x_volta" id="voltar_button"  style="display:absolute;">
 					<h1>X</h1>
 				</button>
             <a href=".\pages\historia.html" class="option_mobile" id="option_1_mobile">História</a>
