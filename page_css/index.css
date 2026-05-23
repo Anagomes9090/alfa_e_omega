@@ -36,7 +36,10 @@ a:hover{
     text-transform: uppercase;
 }
 
-
+.img_templo_chave{
+  width: 25%;
+  height: 35%;
+}
 
 
 @media only screen and (max-width: 1020px){
