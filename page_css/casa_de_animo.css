@@ -55,8 +55,8 @@ h1{
 @media only screen and (max-width: 550px){
 
   #frase1{
-    JUSTIFY-CONTENT: CENTER;
-    DISPLAY: FLEX;
+    margin-top: -1vh;
+    margin-left: 5%;
   }
 #img_apostolos{
     width: 42cap;
