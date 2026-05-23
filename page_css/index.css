@@ -39,7 +39,7 @@ a:hover{
 
 
 
-@media only screen and (max-width: 1066px){
+@media only screen and (max-width: 1020px){
 
    .inicio-page{
       overflow-y: auto;
@@ -47,12 +47,32 @@ a:hover{
     }
    
   #frase1{
-    font-size: 400%;
-    margin-top: -15vh;
-    margin-left: -35%;
+    font-size: 100%;
+    margin-top: -9vh;
+    margin-left: -0%;
   }
  
 #img_templo{
+    width: 150%;
+    height: 135vh;
+    margin-top: -5vh;
+    margin-left: -9%;
+}
+
+}
+@media only screen and (max-width: 800px){
+
+   .inicio-page{
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+   
+  #frase1{
+    font-size: 300%;
+    margin-top: -15vh;
+    margin-left: -35%;
+  } 
+  #img_templo{
     width: 150%;
     height: 135vh;
     margin-top: -5vh;
@@ -60,17 +80,12 @@ a:hover{
 }
 
 }
-@media only screen and (max-width: 1267px){
-     #img_templo{
-      width: 45cap;
-      height: 65%;
-      margin-left: -30%;
-      margin-top: -1vh;
-  
-}
-
-}
 @media only screen and (max-width: 550px){
+
+  .inicio-page{
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
 
   #frase1{
     margin-top: -1vh;
