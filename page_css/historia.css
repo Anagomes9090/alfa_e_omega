@@ -93,4 +93,9 @@ p{
     margin-left: -38vh;
     margin-top: 12vh;
   }
+  text{
+    font-size: 15px;
+    margin-left: 2vh;
+}
+
 }
