@@ -61,7 +61,10 @@ a:hover{
     margin-top: -5vh;
     margin-left: -9%;
 }
-
+ .img_templo_chave{
+  width: 16px;
+  height: 90px;
+}
 }
 @media only screen and (max-width: 800px){
 
@@ -81,7 +84,10 @@ a:hover{
     margin-top: -5vh;
     margin-left: -32%;
 }
-
+ .img_templo_chave{
+  width: 8vh;
+  height: 10vh;
+}
 }
 @media only screen and (max-width: 550px){
 
@@ -101,7 +107,7 @@ a:hover{
     margin-top: -1vh;
   }
   .img_templo_chave{
-  width: 20vh;
-  height: 30vh;
+  width: 8vh;
+  height: 10vh;
 }
 }
