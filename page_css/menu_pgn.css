@@ -13,11 +13,14 @@
 }
 button{
     width: 25vw;
-    height: 3vw;
+    height:5vh;
     border-radius: 5px;
     background-color: #b9b9b9;
     border: none;
     
+}
+button:hover{
+    cursor: pointer;
 }
 .option{
     color: rgb(255, 255, 255);
@@ -36,14 +39,7 @@ button{
     margin-left: 20%;
 }
 
-.botao_menu{
-    background: none; 
-    border: none;     
-    padding: 0;     
-    font: inherit;      
-    cursor: pointer;
-    display: flex;
-}
+
 
 #logo_menu{
     margin-left: 3%;
@@ -57,10 +53,7 @@ button{
 #logo_menu_img{
     margin-top: 4vh;  
 }
-#abre_menu, #menu_icon{
-    margin-left: 70%;
-    display:none;
-}
+
 .option_mobile{
     color: rgb(255, 255, 255);
     display: flex;
@@ -96,6 +89,26 @@ button{
         transition: all;       
         cursor: pointer;
 
+}
+.abre_menu {
+    background: none; 
+    border: none;     
+    padding: 0;     
+    font: inherit;      
+    cursor: pointer;
+    display: none;
+}
+.botao_menu{
+    background: none; 
+    border: none;     
+    padding: 0;     
+    font: inherit;      
+    cursor: pointer;
+    display: flex;
+}
+#abre_menu, #menu_icon{
+    margin-left: 70%;
+   display: none;
 }
 @media only screen and (max-width: 1000px){
 #logo_menu_img, #logo_menu{

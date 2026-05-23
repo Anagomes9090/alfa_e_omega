@@ -18,7 +18,7 @@
 <body>
     <div class="menu">
         <button href="index.html" class="botao_menu" id="logo_menu"><img class="menu_img" id="logo_menu_img" src=".\img\logo_alfa_sem_fundo.png"></button>
-        <button  class="botao_menu" id="abre_menu" style="display:absolute;"><img class="menu_img" id="abre_menu_img" src=".\img\menu_branco.png"></button>
+        <button  class="botao_menu abre_menu" onclick="abreMenu()" id="abre_menu" style="display:absolute;"><img class="menu_img" id="abre_menu_img" src=".\img\menu_branco.png"></button>
 
         <a href=".\pages\historia.html" class="option" id="option_1">História</a>
         <a href=".\pages\eventos.html" class="option" id="option_2">Eventos</a>
@@ -31,7 +31,7 @@
    
      <div class="inicio-page" id="descarrega" >
         <div class="menu_mobile" style="display: none;">
-            <button class="x_volta" id="voltar_button"  style="display:absolute;">
+            <button class="x_volta" onclick="fechaMenu()" id="voltar_button"  style="display:absolute;">
 					<h1>X</h1>
 				</button>
             <a href=".\pages\historia.html" class="option_mobile" id="option_1_mobile">História</a>

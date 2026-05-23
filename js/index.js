@@ -1,11 +1,9 @@
-$("#abre_menu").click(function(){		
+function abreMenu(){
 	$('.menu_mobile').removeAttr("style")
-	console.log('oi')
-});
+	console.log('EU ABRI O MENU')
+}
 
-$("#voltar_button").click(function(){
+function fechaMenu(){
 	$('.menu_mobile').css("display", "none")
-	console.log('oi')
-})	;
-
-
+	console.log('EU FECHEI O MENU')
+}
