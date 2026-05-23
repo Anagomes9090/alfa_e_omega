@@ -9,27 +9,35 @@
     <link rel="stylesheet" href="..\page_css\menu_pgn.css">
     <link rel="stylesheet" href="..\page_css\historia.css">
     <link rel="stylesheet" href="..\page_css\padrao.css">   
-    <script type="text/javascript" src="js/index.js"></script> 
-     
+    <script src="..\js\menu.js"></script>     
+    
     <title>Ministério Apostólico Alfa e Ômega</title>
 </head>
 <body>
   <div class="menu">
         <button  class="botao_menu" id="logo_menu"><img class="menu_img" id="logo_menu_img" src="..\img\logo_alfa_sem_fundo.png"></button>
-        <button  class="botao_menu" id="abre_menu"><img class="menu_img" id="abre_menu_img" src="..\img\menu_branco.png"></button>
+        <button  class="botao_menu abre_menu" onclick="abreMenu()" id="abre_menu" style="display:absolute;"><img class="menu_img" id="abre_menu_img" src="..\img\menu_branco.png"></button>
 
-        <a href="..\index.html" class="option" id="option_1">Home</a>
-        <a href=".\historia.html" class="option" id="option_2">História</a>
-        <a href="index.php" class="option" id="option_3">Eventos</a>
-        <a href="index.php" class="option" id="option_4">Casa de Ânimo</a>
-        <a href="index.php" class="option" id="option_5">Voluntários</a>
-        <a href="..\pages\localiza.html" class="option" id="option_6">Localização</a>
+        <a href=".\historia.html" class="option" id="option_1">História</a>
+        <a href="..\pages\eventos.html" class="option" id="option_2">Eventos</a>
+        <a href="..\pages\casa_de_animo.html" class="option" id="option_3">Casa de Ânimo</a>
+        <a href="..\pages\voluntario.html" class="option" id="option_4">Voluntários</a>
+        <a href="..\pages\localiza.html" class="option" id="option_5">Localização</a>
 
      </div> <br>
 
      <div class="inicio-page">
 
-        <div class="fundo_descarrega">
+         <div class="menu_mobile" style="display: none;">
+            <button class="x_volta" onclick="fechaMenu()" id="voltar_button"  style="display:absolute;">
+					<h1>X</h1>
+				</button>
+            <a href=".\historia.html" class="option_mobile" id="option_1_mobile">História</a>
+            <a href="..\pages\eventos.html" class="option_mobile" id="option_2_mobile">Eventos</a>
+            <a href="..\pages\casa_de_animo.html" class="option_mobile" id="option_3_mobile">Casa de Ânimo</a>
+            <a href="..\pages\voluntario.html" class="option_mobile" id="option_4_mobile">Voluntários</a>
+            <a href="..\pages\localiza.html" class="option_mobile" id="option_5_mobile">Localização</a>
+            <a href="..\index.html" class="option_mobile" id="option_1_mobile">Home</a>
 
         </div>
             

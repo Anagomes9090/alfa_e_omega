@@ -1,85 +1,48 @@
-<?php
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="..\css\menu_pgn.css">
-    <link rel="stylesheet" href="..\css\cad_ent.css">
-    <link rel="script" href="">
-        
-    </script>
-    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="..\img\logo_alfa_sem_fundo.png"/>
+    <link rel="stylesheet" href="..\page_css\menu_pgn.css">
+    <link rel="stylesheet" href="..\page_css\historia.css">
+    <link rel="stylesheet" href="..\page_css\padrao.css">   
+    <script src="..\js\menu.js"></script> 
+    <title>Ministério Apostólico Alfa e Ômega</title>
 </head>
-<style>
-</style>
-
 <body>
-    <div class="menu">
-    <nav>
-        <ul class="nav-list">
-        <a class="logo" href="..\index.html">NAREZZI</a>
-         <li><a href=".\index.html">HOME</a></li>
-         <li> <a href="">PESQUISAS</a></li>
-         <li><a href=".\html\cad.html">APRENDIZADOS</a></li>
-        </ul>
-    </div>    
-    </nav>
+  <div class="menu">
+        <button  class="botao_menu" id="logo_menu"><img class="menu_img" id="logo_menu_img" src="..\img\logo_alfa_sem_fundo.png"></button>
+        <button  class="botao_menu abre_menu" onclick="abreMenu()" id="abre_menu" style="display:absolute;"><img class="menu_img" id="abre_menu_img" src="..\img\menu_branco.png"></button>
 
-    <br><br><br>
-    <center>  <h2>Antes de fazer seu login, faça o seu cadastro</h2> <br> </center> 
-    <center>  <div class="cad">
-     
-            <h3>
-               Cadastre-se
-            </h3><br>
-             <input  type="nome" class="caixa" id="nome" name="nome" placeholder="Nome">
-            <br><br>
-             <input  type="number" class="caixa" id="cpf" name="cpf" placeholder="CPF">
-           <br><br>
-            <input  type="email" class="caixa" id="email" name="email" placeholder="E-mail">
-            <br><br>
-                <input type="password" class="caixa" id="senha" name="senha" placeholder="Senha">
-            <br><br>
-    
-            <button type="submit">Entrar</button><BR><br><br>
-            <a href="\Narezzi\CADASTRO\log.html">LOGIN</a>
-        </center> 
-            
-    </div>
-    <br>
-    <br>
-    <br>
+        <a href="..\pages\historia.html" class="option" id="option_1">História</a>
+        <a href="..\pages\eventos.html" class="option" id="option_2">Eventos</a>
+        <a href=".\casa_de_animo.html" class="option" id="option_3">Casa de Ânimo</a>
+        <a href="..\pages\voluntario.html" class="option" id="option_4">Voluntários</a>
+        <a href="..\pages\localiza.html" class="option" id="option_5">Localização</a>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+     </div> <br>
 
-    <br><br>
-    <br>
+     <div class="inicio-page">
 
-    <br>
-    <br>
-    <br>
 
-    <br>
-    <br>
-    <br>
+         <div class="menu_mobile" style="display: none;">
+            <button class="x_volta" onclick="fechaMenu()" id="voltar_button"  style="display:absolute;">
+					<h1>X</h1>
+				</button>
+            <a href="..\pages\historia.html" class="option_mobile" id="option_1_mobile">História</a>
+            <a href="..\pages\eventos.html" class="option_mobile" id="option_2_mobile">Eventos</a>
+            <a href=".\casa_de_animo.html" class="option_mobile" id="option_3_mobile">Casa de Ânimo</a>
+            <a href="..\pages\voluntario.html" class="option_mobile" id="option_4_mobile">Voluntários</a>
+            <a href="..\pages\localiza.html" class="option_mobile" id="option_5_mobile">Localização</a>
+            <a href="..\index.html" class="option_mobile" id="option_1_mobile">Home</a>
 
-    <br>
-    
+        </div>
+                    
+        <img src="..\img\apostolos.png" id="img_apostolos"><BR><BR><br>
+    <h1 id="frase1" > UM LUGAR <br> FRASE DE IMPACTO </h1><BR>
 
-<footer >
-        <p>ANA LETICYA GOMES &copy; 2024</p>
-       </footer>
-       </body>
-       </html>?>
+    </div> 
+    </body></html>
