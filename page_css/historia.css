@@ -74,6 +74,7 @@ a:hover{
 @media only screen and (max-width: 550px){
 
   #frase1{
+    font-size: 250%;
     margin-top: -1vh;
     margin-left: 5%;
   }
