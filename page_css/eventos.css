@@ -1,0 +1,12 @@
+h1{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-family: var(--fonte2);
+    margin-top: 20vh;
+    font-size: 10vh;
+};
+
