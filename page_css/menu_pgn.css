@@ -16,7 +16,7 @@ button{
     height: 3vw;
     border-radius: 5px;
     background-color: #b9b9b9;
-
+    border: none;
     
 }
 .option{
@@ -61,14 +61,50 @@ button{
     margin-left: 70%;
     display:none;
 }
+.option_mobile{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    font-family: "Poppins";
+    margin:2vh;
+    margin-top: 4vh;
+}
+.menu_mobile{
+    background-color: #000000e0;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0.5px rgb(0, 0, 0);
+    position:fixed;
+    margin-top: -1%;
+}
+.x_volta{   
+ width: 5vh;
+        height: 5vh;
+        display: block;
+        margin-left: 5px;
+        margin-top: 8px;
+        margin-bottom: 5vh;
+        border-radius: 5vh;
+        border-color: rgb(0, 0, 0);
+        background: rgb(126, 7, 7);
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        transition: all;       
+        cursor: pointer;
 
-
-
+}
 @media only screen and (max-width: 1000px){
 #logo_menu_img, #logo_menu{
     margin-left: 1%;
 }
-#abre_menu, #menu_icon{
+#menu_icon{
+    display: block;
+}
+#abre_menu{
     display: block;
 }
 .option{
@@ -83,7 +119,7 @@ button{
     height: 15vh;
 }
 #abre_menu{
-    margin-top: 5%;
+    margin-top: 2%;
 }
 }
 @media only screen and (max-width: 990px){
@@ -96,11 +132,13 @@ button{
     width: 45cap;
     height: 65%;
     margin-left: -52%;
-
     margin-top: -1vh;
     display: absolute;
     justify-content: center;
     font-size: 30px;
     text-transform: uppercase;
+}
+#abre_menu{
+    margin-top: 1%;
 }
 }
