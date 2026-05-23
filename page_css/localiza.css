@@ -57,7 +57,9 @@ h1{
     width: 90%;
     height: 45vh;
     border: none;
-    margin: 5vh;
+    margin-top: 5vh;
+    margin-left: 1%;
+
 }
 #map_localiza{
     margin-top: 5vh;
