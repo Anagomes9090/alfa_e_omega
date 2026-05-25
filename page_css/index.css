@@ -82,6 +82,33 @@ section h1 {
 }
 
 
+/*CARROSSEL*/
+
+.carousel {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+}
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.slide {
+  min-width: 100%;
+}
+.slide img {
+  width: 100%;
+}
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.next { right: 0; }
+
+
 @media only screen and (max-width: 1160px){
   #frase1{
     font-size: 400%;
